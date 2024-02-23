@@ -47,7 +47,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
 #nav-part2 {
@@ -162,12 +162,19 @@ nav {
 
 .left-description {
   padding: 2vw 2vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .left-description p {
   font-size: 2vh;
+  font-weight: 200;
   max-width: 600px;
   line-height: 1.8vw;
+}
+.facilities {
+  padding-top: 2vh;
+  align-self: center;
 }
 
 .page2 img {
@@ -301,7 +308,7 @@ nav {
   height: 40vh;
   max-width: 100%;
   display: block;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .gallery-content-2 video {
@@ -309,7 +316,7 @@ nav {
   height: 30vh;
   max-width: 100%;
   display: block;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .view-more {
@@ -346,5 +353,89 @@ nav {
 }
 
 .custom-button {
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+/* /////////////////// End of Page4 //////////////// */
+
+.page5 {
+  min-height: 90vh;
+  width: 100%;
+  background-color: #f7edf1;
+  position: relative;
+  padding-left: 1vw;
+  padding-top: 2vh;
+  background-color: #ec868e;
+}
+
+.heading-testim {
+  display: flex;
+  justify-content: center;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+
+.heading-testim h2 {
+  font-size: 3.5vw;
+  font-weight: 100;
+  padding: 1.2vh 0;
+  color: #ffffff;
+}
+
+.review-block {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  padding-top: 2vh;
+  padding-bottom: 4vh;
+}
+
+.review-block img {
+  height: 15vh;
+  width: 100%;
+}
+
+.review-block h3 {
+  max-width: 400px;
+  padding: 0 3vw;
+}
+
+.review-block p {
+  padding-top: 3vh;
+  font-weight: 100;
+  font-size: 1.5vw;
+}
+
+.read-more {
+  display: flex;
+  justify-content: center;
+}
+.review-button {
+  font-size: 12px;
+  display: inline-block;
+  padding: 25px 50px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  color: #e45c7e;
+  background-color: #ffffff;
+  border-radius: 40px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.review-button:hover {
+  background-color: #726365; /* Background color on 
+  hover */
+  border: 2px solid #726365;
+  color: white; /* Text color on hover */
+}
+
+.review-button {
   font-size: 20px; /* Adjust the font size as needed */
 }
